@@ -1,0 +1,106 @@
+.container{
+    width: 1440px;
+    
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    height: auto;
+    background-color: rgb(227,22,51);
+
+}
+.logo
+{
+    margin-bottom: 7px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+.office_plan_btn{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+    font-size: larger;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    opacity: 0.6;
+   
+}
+
+.employees_btn{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: white;
+    font-size: larger;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+
+.filter{
+    display: flex;
+    margin-left: 60px;
+    margin-top:20px;
+    margin-bottom: 20px;  
+}
+
+.filter_area{
+  
+    padding-left: 10px;
+    opacity: 0.3;
+    border-color: rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 5px 0px 0px 5px;
+    width: 1000px;
+    height: 30px;
+}
+
+.lupa{
+    margin-right: 3.7px;
+    border-radius: 0px 5px 5px 0px;
+    width: 36.2px;
+    opacity: 0.7;
+    border: 1.5px black solid;
+}
+
+.add_employee_btn{
+  height: 30px;
+    font-family: system-ui;
+    padding-top: 6px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 20px;
+    display: flex;
+    background-color: rgb(0, 135, 86);
+    border-radius: 5px;
+    color: white;
+  
+}
+
+.add_img{
+    margin-right: 10px;
+    margin-top: 1px;
+    height: 24px;
+
+}
+
+table { 
+    border-collapse:collapse; 
+    margin-left: 56px;
+    width: 1245px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+table thead th { 
+    font-weight: bold;
+    font-size: x-large;
+    border-bottom: 2px solid #000; 
+
+}
+ table tbody{
+    margin-left: 100px;
+}
+table tbody td {
+    border-bottom: 2px solid #000000; 
+}
